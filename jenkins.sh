@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "This may take sometime. Please wait..."
 # Download Jenkins keyring
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
     https://pkg.jenkins.io/debian/jenkins.io-2023.key
