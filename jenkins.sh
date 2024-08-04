@@ -3,7 +3,7 @@
 echo "This may take sometime. Please wait..."
 # Download Jenkins keyring
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
-    https://pkg.jenkins.io/debian/jenkins.io-2023.key
+    https://pkg.jenkins.io/debian/jenkins.io-2023.key &> /dev/null
 
 # Add Jenkins repository to sources.list
 echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
