@@ -11,7 +11,7 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
     /etc/apt/sources.list.d/jenkins.list > /dev/null
 
 # Update package information
-sudo apt-get update -y  &> /dev/null
+#sudo apt update -y  &> /dev/null
 
 # Install fontconfig and OpenJDK 17 JRE
 sudo apt-get install fontconfig openjdk-17-jre -y  &> /dev/null
